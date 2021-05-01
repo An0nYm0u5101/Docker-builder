@@ -1,4 +1,4 @@
-FROM alpine:3.2
+FROM alpine:3.12
 
 ENV REFRESHED_AT 20151104
 
