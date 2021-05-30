@@ -10,7 +10,7 @@
 # You can directly run below command to convert the pdf file in current foler.
 # $ docker run -ti --rm -v $(pwd):/app pdf2txt sample.pdf > sample.txt
 
-FROM alpine:3.2
+FROM alpine:3
 
 RUN apk update && apk add python git && \
     git clone https://github.com/euske/pdfminer.git && \
