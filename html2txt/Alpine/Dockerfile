@@ -5,7 +5,7 @@
 # alias html2txt="docker run -ti --rm -v $(pwd):/app bwits/html2txt"
 # html2txt /app/test.html /app/test.txt
 # cat test.txt
-FROM alpine:3.2
+FROM alpine:3
 
 RUN apk --update add curl php php-curl php-openssl php-json php-phar php-dom && \
     curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer && \
