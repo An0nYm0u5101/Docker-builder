@@ -1,4 +1,4 @@
-FROM alpine:3.2
+FROM alpine:3.13
 
 # Installs Android SDK
 ENV ANDROID_SDK_FILENAME android-sdk_r23.0.2-linux.tgz
