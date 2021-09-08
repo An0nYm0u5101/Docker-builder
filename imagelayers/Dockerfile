@@ -1,4 +1,4 @@
-FROM alpine:3.2
+FROM alpine:3.13.6
 
 RUN apk --update add go git
 
