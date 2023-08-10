@@ -1,4 +1,4 @@
-FROM alpine:3.2
+FROM alpine:3.16.7
 
 RUN apk --update add go git alpine-sdk bzr mercurial bash
 ENV GOPATH /go
