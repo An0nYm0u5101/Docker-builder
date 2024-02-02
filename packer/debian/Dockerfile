@@ -1,4 +1,4 @@
-FROM golang
+FROM golang:1.22rc2-bookworm
 
 RUN apt-get install git bzr mercurial
 ENV GOPATH /go
