@@ -1,4 +1,4 @@
-FROM golang
+FROM golang:1.22.4
 
 RUN apt-get install git bzr mercurial
 ENV GOPATH /go
